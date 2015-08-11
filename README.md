@@ -13,7 +13,7 @@ nmap <F4> :AuthorInfoDetect<cr>
 nmap ,ha :call InsertHeadDefN()<CR>
 
 
-当在normal模式按下,<F4> 就会插入头文件。
+当在normal模式按下,F4 就会插入头文件。
 
 当在normal模式按下,ha，就会先匹配/*..*/这样的组合，如果匹配成功的话，就会在*/后插入 宏定义，如果匹配不成功的话，就会在一开始插入宏定义。
 
