@@ -1,6 +1,6 @@
 # vim_file_info
 vim 一键自动 添加文件作者信息 添加宏定义
-步骤：
+步骤：</br>
 1.安装NERD_commenter.vim(cp doc/  ~/.vim  cp plugin/  ~/.vim )
 2.将authorinfo.vim下载后放到plugin目录下（cp authorinfo.vim  ~/.vim/plugin/）
 3. 将head_def.vim下载后放到plugin目录下（cp head_def.vim  ~/.vim/plugin/）
