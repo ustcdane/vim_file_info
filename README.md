@@ -22,3 +22,4 @@ nmap ,ha :call InsertHeadDefN()<CR></br>
 </br>
 2,http://www.vimer.cn/2010/01/%e7%94%a8vim%e5%9c%a8%e4%bb%a3%e7%a0%81%e6%96%87%e4%bb%b6%e4%b8%ad%e8%87%aa%e5%8a%a8%e6%b7%bb%e5%8a%a0ifdefdefineendif.html </br>
 3,http://www.vimer.cn/2010/06/%e6%9c%ac%e5%8d%9a%e4%bd%bf%e7%94%a8%e7%9a%84vimgvim%e7%9b%b8%e5%85%b3%e6%8f%92%e4%bb%b6%e6%95%b4%e7%90%86.html
+4, 发现一个配置vim不错的网址，mark：https://github.com/yangyangwithgnu/use_vim_as_ide
