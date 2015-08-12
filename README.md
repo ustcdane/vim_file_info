@@ -1,7 +1,7 @@
 # vim_file_info
 vim 一键自动 添加文件作者信息  代码文件中自动添加#ifdef,#define,#endif的头文件宏定义 </br>
 步骤：</br>
-1.安装NERD_commenter.vim(cp doc/  ~/.vim  cp plugin/  ~/.vim )</br>
+1.安装NERD_commenter.vim(cp nerdcommenter/doc  ~/.vim  cp plugin/  ~/.vim )</br>
 2.将authorinfo.vim下载后放到plugin目录下（cp authorinfo.vim  ~/.vim/plugin/）</br>
 3. 将head_def.vim下载后放到plugin目录下（cp head_def.vim  ~/.vim/plugin/）</br>
 4.在vimrc中进行如下配置:</br>
