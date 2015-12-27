@@ -8,7 +8,7 @@ cp   plugin/NERD_commenter.vim     ~/.vim/plugin )</br>
 4.在vimrc中进行如下配置:</br>
 let g:vimrc_author='Daniel' </br>
 let g:vimrc_email='***@gmail.com' </br>
-let g:vimrc_homepage='http://www.vimer.cn' </br>
+let g:vimrc_homepage='http://ustcdane.github.io/' </br>
 
 nmap <F4> :AuthorInfoDetect<cr> </br>
 nmap ,ha :call InsertHeadDefN()<CR></br>
