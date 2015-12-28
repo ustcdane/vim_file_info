@@ -6,9 +6,9 @@ cp   plugin/NERD_commenter.vim     ~/.vim/plugin )</br>
 2.将authorinfo.vim下载后放到plugin目录下（cp authorinfo.vim  ~/.vim/plugin/）</br>
 3. 将head_def.vim下载后放到plugin目录下（cp head_def.vim  ~/.vim/plugin/）</br>
 4.在vimrc中进行如下配置:</br>
-let g:vimrc_author='Daniel' </br>
-let g:vimrc_email='***@gmail.com' </br>
-let g:vimrc_homepage='http://ustcdane.github.io/' </br>
+> let g:vimrc_author='Daniel' </br>
+> let g:vimrc_email='***@gmail.com' </br>
+> let g:vimrc_homepage='http://ustcdane.github.io/' </br>
 > nmap <F4> :AuthorInfoDetect<cr> </br>
 > nmap ,ha :call InsertHeadDefN()<cr>
 
