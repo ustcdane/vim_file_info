@@ -1,4 +1,4 @@
-# vim_file_info
+﻿# vim_file_info
 vim 一键自动 添加文件作者信息  代码文件中自动添加#ifdef,#define,#endif的头文件宏定义 </br>
 步骤：</br>
 1.安装NERD_commenter.vim(cp -r nerdcommenter/doc  &nbsp ~/.vim ; 
@@ -9,14 +9,21 @@ cp   plugin/NERD_commenter.vim     ~/.vim/plugin )</br>
 let g:vimrc_author='Daniel' </br>
 let g:vimrc_email='***@gmail.com' </br>
 let g:vimrc_homepage='http://ustcdane.github.io/' </br>
-
+'''
 nmap <F4> :AuthorInfoDetect<cr> </br>
 nmap ,ha :call InsertHeadDefN()<CR></br>
-
+'''
 
 当在normal模式按下,F4 就会插入头文件。</br>
 
 当在normal模式按下,ha，就会先匹配/*..*/这样的组合，如果匹配成功的话，就会在*/后插入</br> 宏定义，如果匹配不成功的话，就会在一开始插入宏定义。</br>
+
+</br></br></br>
+viminstall.tar.gz
+用vim的插件搭建一个类似sourceinsight的vi，同时加了一些vim及脚本，只需一条命令，就可安装完ctagslist,cscope等插件，达到sourceinsight的效果。
+</br>说明见：</br>
+http://blog.csdn.net/daniel_ustc/article/details/8299096
+
 
 参考：</br>
 1,http://www.vimer.cn/2011/02/vimgvim%e6%b7%bb%e5%8a%a0%e4%bd%9c%e8%80%85%e4%bf%a1%e6%81%af%e6%8f%92%e4%bb%b6%e5%8d%87%e7%ba%a7%e7%89%88-%e6%9b%b4%e6%99%ba%e8%83%bd%e6%94%af%e6%8c%81%e6%9b%b4%e5%a4%9a%e8%af%ad%e8%a8%80.html
