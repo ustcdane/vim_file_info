@@ -13,13 +13,14 @@ cp   plugin/NERD_commenter.vim     ~/.vim/plugin )</br>
 > nmap ,ha :call InsertHeadDefN()<cr>
 
 当在normal模式按下,F4 就会插入头文件。</br>
-
 当在normal模式按下,ha，就会先匹配/*..*/这样的组合，如果匹配成功的话，就会在*/后插入</br> 宏定义，如果匹配不成功的话，就会在一开始插入宏定义。</br>
 </br>
-viminstall.tar.gz
+
+--------------------------------------------------------------------
+可以直接下载 配好的脚本 viminstall.tar.gz 使用方法参考readme。</br>
 用vim的插件搭建一个类似sourceinsight的vi，同时加了一些vim及脚本，只需一条命令，就可安装完ctagslist,cscope等插件，达到sourceinsight的效果。
-</br>说明见：</br>
-http://blog.csdn.net/daniel_ustc/article/details/8299096
+</br>说明见：</br>http://blog.csdn.net/daniel_ustc/article/details/8299096
+
 
 
 参考：</br>
