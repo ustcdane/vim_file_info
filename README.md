@@ -1,4 +1,4 @@
-﻿# vim_file_info
+## vim_file_info 自动添加作者信息
 vim 一键自动 添加文件作者信息  代码文件中自动添加#ifdef,#define,#endif的头文件宏定义 </br>
 步骤：</br>
 1.安装NERD_commenter.vim(cp -r nerdcommenter/doc  &nbsp ~/.vim ; 
@@ -16,12 +16,12 @@ cp   plugin/NERD_commenter.vim     ~/.vim/plugin )</br>
 当在normal模式按下,ha，就会先匹配/*..*/这样的组合，如果匹配成功的话，就会在*/后插入</br> 宏定义，如果匹配不成功的话，就会在一开始插入宏定义。</br>
 </br>
 
-> --------------------------------------------------------------------
+## vim 配置更多功能
 可以直接下载 配好的脚本 viminstall.tar.gz 使用方法参考readme。</br>
 用vim的插件搭建一个类似sourceinsight的vi，同时加了一些vim及脚本，只需一条命令，就可安装完ctagslist,cscope等插件，达到sourceinsight的效果，其中集成了上面的自动添加作者信息的脚本，实现一键安装。
 </br>说明见：</br>http://blog.csdn.net/daniel_ustc/article/details/8299096
 
-
+> --------------------------------------------------------------------
 x86_64机器上出现如下错误：
 Error detected while processing /root/.vimrc:</br>
 -bash: /usr/bin/cscope: /lib/ld-linux.so.2: bad ELF interpreter: No such file or directory</br>
