@@ -22,7 +22,7 @@ cp   plugin/NERD_commenter.vim     ~/.vim/plugin )</br>
 </br>说明见：</br>http://blog.csdn.net/daniel_ustc/article/details/8299096
 
 > --------------------------------------------------------------------
-x86_64机器上出现如下错误：
+x86_64机器上出现如下错误：</br>
 Error detected while processing /root/.vimrc:</br>
 -bash: /usr/bin/cscope: /lib/ld-linux.so.2: bad ELF interpreter: No such file or directory</br>
 解决办法：</br>
@@ -38,7 +38,7 @@ yum install libncurses.so.5
 
 
 
-参考：</br>
+## 参考：
 1,http://www.vimer.cn/2011/02/vimgvim%e6%b7%bb%e5%8a%a0%e4%bd%9c%e8%80%85%e4%bf%a1%e6%81%af%e6%8f%92%e4%bb%b6%e5%8d%87%e7%ba%a7%e7%89%88-%e6%9b%b4%e6%99%ba%e8%83%bd%e6%94%af%e6%8c%81%e6%9b%b4%e5%a4%9a%e8%af%ad%e8%a8%80.html
 </br>
 http://www.vimer.cn/2010/01/%E7%94%A8vim%E5%9C%A8%E4%BB%A3%E7%A0%81%E6%96%87%E4%BB%B6%E4%B8%AD%E8%87%AA%E5%8A%A8%E6%B7%BB%E5%8A%A0ifdefdefineendif.html</br>
