@@ -22,6 +22,21 @@ cp   plugin/NERD_commenter.vim     ~/.vim/plugin )</br>
 </br>说明见：</br>http://blog.csdn.net/daniel_ustc/article/details/8299096
 
 
+x86_64机器上出现如下错误：
+Error detected while processing /root/.vimrc:</br>
+-bash: /usr/bin/cscope: /lib/ld-linux.so.2: bad ELF interpreter: No such file or directory</br>
+解决办法：</br>
+修复/lib/ld-linux.so.2: bad ELF interpreter: No such file or directory问题</br>
+ 在64系统里执行32位程序如果出现/lib/ld-linux.so.2: </br>
+bad ELF interpreter: No such file or directory，安装下glic即可</br>
+> sudo yum install glibc.i686
+</br>
+由出现错误：
+cscope: error while loading shared libraries: libncurses.so.5: cannot open shared object file: No such file or directory
+</br>
+yum install libncurses.so.5
+
+
 
 参考：</br>
 1,http://www.vimer.cn/2011/02/vimgvim%e6%b7%bb%e5%8a%a0%e4%bd%9c%e8%80%85%e4%bf%a1%e6%81%af%e6%8f%92%e4%bb%b6%e5%8d%87%e7%ba%a7%e7%89%88-%e6%9b%b4%e6%99%ba%e8%83%bd%e6%94%af%e6%8c%81%e6%9b%b4%e5%a4%9a%e8%af%ad%e8%a8%80.html
