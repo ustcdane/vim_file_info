@@ -34,6 +34,7 @@ bad ELF interpreter: No such file or directory，安装下glic即可</br>
 由出现错误：
 cscope: error while loading shared libraries: libncurses.so.5: cannot open shared object file: No such file or directory
 </br>
+解决方法:</br>
 yum install libncurses.so.5
 
 
