@@ -37,7 +37,14 @@ cscope: error while loading shared libraries: libncurses.so.5: cannot open share
 解决方法:</br>
 yum install libncurses.so.5
 
-
+</br>
+由出现错误：
+Error detected while processing /root/.vimrc:
+line  111:
+E563: stat(/root/.vim/cscope.out) error: 2
+解决方法:</br>
+ /root/.vimrc </br> Line:111
+cscope add  $dir/cscope.out 注释掉： "  cscope add  $dir/cscope.out
 
 ## 参考：
 1,http://www.vimer.cn/2011/02/vimgvim%e6%b7%bb%e5%8a%a0%e4%bd%9c%e8%80%85%e4%bf%a1%e6%81%af%e6%8f%92%e4%bb%b6%e5%8d%87%e7%ba%a7%e7%89%88-%e6%9b%b4%e6%99%ba%e8%83%bd%e6%94%af%e6%8c%81%e6%9b%b4%e5%a4%9a%e8%af%ad%e8%a8%80.html
