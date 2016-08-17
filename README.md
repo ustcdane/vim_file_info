@@ -52,7 +52,7 @@ ctags -R * 生成ctags后 Ctrl-] 跳转函数出现错误  Vim "ctags: tag not f
 Yes, you should tell Vim where to find your tags file with something like:
 :set tags=/path/to/tags</br>
 This is not very optimal, though. This line in your ~/.vimrc should help:</br>
-set tags=./tags,tags;$HOME</br>
+set tags=./tags,tags;$HOME (在~/.vimrc 底部加上这行即可)</br>
 It tells Vim to look for a tags file in the directory of the current file, in the current directory and up and up until your $HOME (that's the meaning of the semicolon), stopping on the first hit.</br>
 
 ## 参考：
