@@ -17,7 +17,8 @@ cp   plugin/NERD_commenter.vim     ~/.vim/plugin )</br>
 </br>
 
 ## vim 配置更多功能
-可以直接下载 配好的脚本 viminstall.tar.gz 使用方法参考readme。</br>
+可以直接下载 配好的脚本 vim_install.tar.gz 使用方法参考readme。</br
+解压vim_install.tar.gz后 进入目录 运行脚本./install 即可完成安装</br>
 用vim的插件搭建一个类似sourceinsight的vi，同时加了一些vim及脚本，只需一条命令，就可安装完ctagslist,cscope等插件，达到sourceinsight的效果，其中集成了上面的自动添加作者信息的脚本，实现一键安装。
 </br>说明见：</br>http://blog.csdn.net/daniel_ustc/article/details/8299096
 
