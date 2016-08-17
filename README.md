@@ -37,7 +37,7 @@ cscope: error while loading shared libraries: libncurses.so.5: cannot open share
 解决方法:</br>
 yum install libncurses.so.5
 
-</br>
+</br></br>
 由出现错误：
 Error detected while processing /root/.vimrc:</br>
 line  111:</br>
@@ -45,6 +45,15 @@ E563: stat(/root/.vim/cscope.out) error: 2</br>
 解决方法:</br>
  /root/.vimrc </br> Line:111
 cscope add  $dir/cscope.out 注释掉： "  cscope add  $dir/cscope.out</br>
+</br></br>
+由出现错误：
+ctags -R * 生成ctags后 Ctrl-] 跳转函数出现错误  Vim "ctags: tag not found"</br>
+解决方法:</br>
+Yes, you should tell Vim where to find your tags file with something like:
+:set tags=/path/to/tags</br>
+This is not very optimal, though. This line in your ~/.vimrc should help:</br>
+set tags=./tags,tags;$HOME</br>
+It tells Vim to look for a tags file in the directory of the current file, in the current directory and up and up until your $HOME (that's the meaning of the semicolon), stopping on the first hit.</br>
 
 ## 参考：
 1,http://www.vimer.cn/2011/02/vimgvim%e6%b7%bb%e5%8a%a0%e4%bd%9c%e8%80%85%e4%bf%a1%e6%81%af%e6%8f%92%e4%bb%b6%e5%8d%87%e7%ba%a7%e7%89%88-%e6%9b%b4%e6%99%ba%e8%83%bd%e6%94%af%e6%8c%81%e6%9b%b4%e5%a4%9a%e8%af%ad%e8%a8%80.html
@@ -53,3 +62,4 @@ http://www.vimer.cn/2010/01/%E7%94%A8vim%E5%9C%A8%E4%BB%A3%E7%A0%81%E6%96%87%E4%
 2,http://www.vimer.cn/2010/01/%e7%94%a8vim%e5%9c%a8%e4%bb%a3%e7%a0%81%e6%96%87%e4%bb%b6%e4%b8%ad%e8%87%aa%e5%8a%a8%e6%b7%bb%e5%8a%a0ifdefdefineendif.html </br>
 3,http://www.vimer.cn/2010/06/%e6%9c%ac%e5%8d%9a%e4%bd%bf%e7%94%a8%e7%9a%84vimgvim%e7%9b%b8%e5%85%b3%e6%8f%92%e4%bb%b6%e6%95%b4%e7%90%86.html  </br>
 4, 发现一个配置vim不错的网址，mark：https://github.com/wklken/k-vim
+5，http://stackoverflow.com/questions/11975316/vim-ctags-tag-not-found
